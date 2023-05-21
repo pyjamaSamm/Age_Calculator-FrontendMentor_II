@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body role="document">
+  <div class="whiteContainer">
+    <div class="dateInput">
+      <div class="dateComponent">
+        <div class="dateHeading">
+          Day
+        </div>
+        <div class="error">
+          <input type="text" placeholder="DD" id="dayID">
+          <div class="error_text dateErr">This field is required</div>
+        </div>
+      </div>
+      <div class="dateComponent">
+        <div class="dateHeading">
+          Month
+        </div>
+        <div class="error">
+          <input type="text" placeholder="MM" id="monthID">
+          <div class="error_text monthErr">This field is required</div>
+        </div>
+      </div>
+      <div class="dateComponent">
+        <div class="dateHeading">
+          Year
+        </div>
+        <div class="error">
+          <input type="text" placeholder="YYYY" id="yearID">
+          <div class="error_text yearErr">This field is required</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="line">
+      <hr>
+      <div class="purpleCircle"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+          <g fill="none" stroke="#FFF" stroke-width="2">
+            <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+          </g>
+        </svg></div>
+    </div>
+    <div>
+      <div class="display">
+        <div class="updateVal updateYear">
+          - -
+        </div>
+        <div>&nbsp;years</div>
+      </div>
+      <div class="display">
+        <div class="updateVal updateMonth"> - - </div>
+        <div>&nbsp;months</div>
+      </div>
+      <div class="display">
+        <div class="updateVal updateDay"> - - </div>
+        <div>&nbsp;days</div>
+      </div>
+    </div>
+  </div>
+  <div class="attribution" role="doc-footnote">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/pyjamaSamm">Gulafsha Ahmed</a>.
+  </div>
+
+
+
+  <script src="index.js">
+   
+  </script>
+
+
+
+</body>
+
+</html>
